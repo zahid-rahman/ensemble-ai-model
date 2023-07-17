@@ -35,7 +35,7 @@ ensemble_preds = (svm_preds + mlp_preds + rbf_preds + rt_preds) // 4
 
 # Evaluate ensemble model accuracy
 ensemble_accuracy = accuracy_score(y_test, ensemble_preds)
-print("Ensemble Accuracy:", ensemble_accuracy)
+print("Ensemble Accuracy:", ensemble_accuracy * 100)
 
 
 
