@@ -25,6 +25,5 @@ deactivate
 
 installing packages/modules
 ```
-pip3 freeze > requirements.py
-pip3 install -r requirements.py
+pip3 install -r requirements.txt
 ```

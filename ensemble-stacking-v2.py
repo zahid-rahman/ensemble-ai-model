@@ -27,4 +27,4 @@ X_train, X_test, y_train, y_test = train_test_split(
 
 # train the combine model
 prediction_score = clf.fit(X_train, y_train).score(X_test, y_test)
-print('Ensemble accuracy:', prediction_score)
+print('Ensemble accuracy:', prediction_score* 100)
