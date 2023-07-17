@@ -1,10 +1,30 @@
-creating virtual environment with following commandline
-``python3 -m venv myenv``
+# SPM-ai-models
+Topic: An effective approach for software project effort and duration estimation with machine learning algorithms
 
-activate virtual env with following commandline
-``source myenv/bin/activate``
+## libraries:
+- scikit-learn
+- scipy
+- numpy
+- pandas
+- fastapi
+
+creating virtual environment
+```
+python3 -m venv myenv
+```
+
+activate virtual env
+```
+source myenv/bin/activate
+```
+
+decativate virtual env
+```
+deactivate
+```
 
 installing packages/modules
-``` pip3 freeze > requirements.py
-    pip3 install -r requirements.py
+```
+pip3 freeze > requirements.py
+pip3 install -r requirements.py
 ```
